@@ -24,7 +24,7 @@ La explicación se encuentra en el documento PDF en la raíz del proyecto.
 
 * [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) - Motor de servidor
 * [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) - Herramienta con interfaz de usuario para realizar las diferentes consultas y peticiones de las tablas creadas en las bases de datos
-* [Visual Studio](https://visualstudio.microsoft.com/es/downloads/) - Herramienta para poder crear los ETL
+* [Visual Studio](https://visualstudio.microsoft.com/es/downloads/) - Herramienta para poder realizar el análisis de datos y creación del Cubo
 
 ## Autores ✒️
 
