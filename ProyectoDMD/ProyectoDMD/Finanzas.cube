@@ -1,0 +1,267 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8469074f-cd6d-41be-83fe-aee49e639c62" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Proyecto DMD</ID>
+  <Name>Finanzas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-22139" scrolltop="-9141" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="47969" y="23283" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sheet1$" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000430e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Sheet1$" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-22139</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9141</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="949d0105-f97f-47f5-a64b-965c543df91c">
+      <ID>Sheet1</ID>
+      <Name>Sheet1</Name>
+      <DimensionID>Sheet1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e35910e1-22b5-42e0-8e4c-5934cbda4127">
+          <AttributeID>Segmento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="464dd637-8fa8-41d9-804d-5bdf15ff3b8d">
+          <AttributeID>País</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c4ccb35-2ca6-4483-a867-87b4992ec2f0">
+          <AttributeID>Producto</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="73936305-4ce8-429d-a0d0-9aa1beb16148">
+      <ID>Sheet1</ID>
+      <Name>Sheet1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d953800f-866d-436d-b809-3deddc777183">
+          <ID>Unidades Vendidas</ID>
+          <Name>Unidades Vendidas</Name>
+          <Source dwd:design-time-name="d6eee6e5-10e4-4c9d-97f1-d0a320c76acc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3a0ec3d-a7bf-4a02-ad83-0e08c5beae40">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Unidades_x0020_vendidas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="99a1f241-14d4-4d28-9485-57348bffae19">
+          <ID>Precio Manufactura</ID>
+          <Name>Precio Manufactura</Name>
+          <Source dwd:design-time-name="f7819d22-f37d-428f-87fa-a66d479f9631">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ae115bf5-8aa9-4a46-ab0b-8a35df4a3606">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Precio_x0020_manufactura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0478b0bc-7b49-423d-bf33-2609107c201e">
+          <ID>Precio De Venta</ID>
+          <Name>Precio De Venta</Name>
+          <Source dwd:design-time-name="f76fabe5-0eb3-46ce-8105-dedf72ff1bc3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b0b2fdda-9cd2-43b6-a5d7-94aae1f78daf">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Precio_x0020_de_x0020_venta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4a0aaf67-e70e-45ec-8cec-9360bb99253e">
+          <ID>Ventas</ID>
+          <Name>Ventas</Name>
+          <Source dwd:design-time-name="94d980a7-6ae3-43bd-a693-5ff7e6696ab7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4981f4b8-1a39-43e5-af1b-806f4d15899c">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Ventas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d7692f1a-528f-4168-b54b-1f5d45405e76">
+          <ID>Costos</ID>
+          <Name>Costos</Name>
+          <Source dwd:design-time-name="ec4ddd1c-8fed-430c-aad5-b9ddfe02fc4c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="293a95a4-b549-46a8-beb7-afc1203a77af">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Costos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c8a4b6e7-2a93-41db-9edc-d5587ff3fbbd">
+          <ID>Beneficio</ID>
+          <Name>Beneficio</Name>
+          <Source dwd:design-time-name="42eb029a-b99e-493a-b53a-645b89838c59">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="40d9b7cf-2c40-4bf4-9bf5-98bae693ce37">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Beneficio</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ac365280-4c08-4011-8f70-17392c271f3d">
+          <ID>Año</ID>
+          <Name>Año</Name>
+          <Source dwd:design-time-name="c9eeb8ec-8cba-4d3e-ba02-4d1666845354">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c077afd-1e22-458a-bcf8-717ba6829cd7">
+              <TableID>dbo_Sheet1_x0024_</TableID>
+              <ColumnID>Año</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e2908b75-2451-475f-a1a6-213b41dfec80">
+          <CubeDimensionID>Sheet1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3310882b-a8d0-4a60-8888-9241afcb52f8">
+              <AttributeID>Segmento</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e67f2892-065f-4554-a99f-84dd5678b3ee">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c116c2f0-2783-4179-b399-cc1355c0486e">
+                    <TableID>dbo_Sheet1_x0024_</TableID>
+                    <ColumnID>Segmento</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="7d36b24c-6a96-4c60-a9db-233f5ea69dfd">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33d225ba-24d4-4748-a29b-ae1e61a010f5">
+                    <TableID>dbo_Sheet1_x0024_</TableID>
+                    <ColumnID>País</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="efec9414-0dd8-474f-adcb-4c92a6b3a668">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="82bf18ae-0ee6-4868-aaad-3c03239829bc">
+                    <TableID>dbo_Sheet1_x0024_</TableID>
+                    <ColumnID>Producto</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="59283abb-1601-4a7a-b517-f6c24d0ef785">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0b2de194-5b06-4fab-83ac-80e82fb4352b">
+                    <TableID>dbo_Sheet1_x0024_</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="82068b53-a1ee-4dba-8629-942d09bfaf8e">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6879b93c-10a4-4365-b3f8-b7d769ce985d">
+                    <TableID>dbo_Sheet1_x0024_</TableID>
+                    <ColumnID>Año</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="8f9c04be-0e76-4378-b435-993d158f4623">
+    <DataSourceViewID>Proyecto DMD</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="09bb612d-832b-426f-94ec-15562bc785b5">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Solo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].MargenDeBeneficioNeto
+ AS ([Measures].[Beneficio]/[Measures].[Ventas])*100, 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="8abe7368-0241-4510-88b8-300299fe6695">
+      <ID>KPI</ID>
+      <Name>Margen de Beneficio</Name>
+      <AssociatedMeasureGroupID>Sheet1</AssociatedMeasureGroupID>
+      <Value>([Measures].[Beneficio]/[Measures].[Ventas])*100</Value>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>

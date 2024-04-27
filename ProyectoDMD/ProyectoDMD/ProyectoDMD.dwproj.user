@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Proyecto DMD</Id>
+            <Name>Proyecto DMD</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARABNAEQAAAAQZgAAAAEAACAAAABssEx0mhhDB3x9b7hqdf9f1ttiZ+zefznKzHfrmukxRgAAAAAOgAAAAAIAACAAAACOH++R4TL4XCekyG1/UvvFsyoT0qmBy94RBOnqWwIalRAAAAAIxPLQsmADZPBSO5EJ7gexQAAAAHy4QcNITWGMUOLek3lsFz82c7GB/0fsMZcEAxrydF/9W1OmRIV4Vh210un3/Kzezx/LxPXNi4uyWegUqwAgwLw=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Proyecto DMD</Id>
+            <Name>Proyecto DMD</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARABNAEQAAAAQZgAAAAEAACAAAABciYKOZgbR11Vkl9dLrv0fPUaQgmJbuqlS8zs9En0fQQAAAAAOgAAAAAIAACAAAAAakiEDz2e6eBNbLCKfKuu36mj2kXAc9atYfcTsOQQIViAAAABBZ9Nggv1IZ2e5t/rN5zGr3ijsddOQZJOhdwi8VTU5BEAAAACmzntNtRI7BkuyhwQF4+p+9JRvlVd8nlqrKXO4VLXZTmaPLuZaad6raPntdo5H8+D0glinam3Csp5PbRikQ0h3</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>SERVER</TargetServer>
+        <TargetDatabase>ProyectoDMD</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
