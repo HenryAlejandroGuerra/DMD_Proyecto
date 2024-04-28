@@ -5,20 +5,20 @@
       <Options>
         <UserIDs>
           <ConfigurationSetting>
-            <Id>Proyecto DMD</Id>
-            <Name>Proyecto DMD</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARABNAEQAAAAQZgAAAAEAACAAAABssEx0mhhDB3x9b7hqdf9f1ttiZ+zefznKzHfrmukxRgAAAAAOgAAAAAIAACAAAACOH++R4TL4XCekyG1/UvvFsyoT0qmBy94RBOnqWwIalRAAAAAIxPLQsmADZPBSO5EJ7gexQAAAAHy4QcNITWGMUOLek3lsFz82c7GB/0fsMZcEAxrydF/9W1OmRIV4Vh210un3/Kzezx/LxPXNi4uyWegUqwAgwLw=</Value>
+            <Id>Proyecto Catedrafase1</Id>
+            <Name>Proyecto Catedrafase1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAsAAAAUAByAG8AeQBlAGMAdABvACAAQwBhAHQAZQBkAHIAYQBmAGEAcwBlADEAAAAQZgAAAAEAACAAAAB7m7uO9w4iW6jThIa0ID6YvJVnt37vaIdBbPhEC7FO3QAAAAAOgAAAAAIAACAAAAAzIeIcD0CfwwfS8E+QLMgLUcrMmtNx579CnvWsCP9UHBAAAADGC+TkeErTL90JDwHQd1ThQAAAAD0anG2vi9TO6aYekhTtW3rUYj1jLl4yQ2+G0kKF4oVZwpvSc1S4ed8vMkgLPJ48xZu55CLayCtyzIoQx9UCMUs=</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
-            <Id>Proyecto DMD</Id>
-            <Name>Proyecto DMD</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARABNAEQAAAAQZgAAAAEAACAAAABciYKOZgbR11Vkl9dLrv0fPUaQgmJbuqlS8zs9En0fQQAAAAAOgAAAAAIAACAAAAAakiEDz2e6eBNbLCKfKuu36mj2kXAc9atYfcTsOQQIViAAAABBZ9Nggv1IZ2e5t/rN5zGr3ijsddOQZJOhdwi8VTU5BEAAAACmzntNtRI7BkuyhwQF4+p+9JRvlVd8nlqrKXO4VLXZTmaPLuZaad6raPntdo5H8+D0glinam3Csp5PbRikQ0h3</Value>
+            <Id>Proyecto Catedrafase1</Id>
+            <Name>Proyecto Catedrafase1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARNE+Y64KtkKkg1tFiTN4UgAAAAAsAAAAUAByAG8AeQBlAGMAdABvACAAQwBhAHQAZQBkAHIAYQBmAGEAcwBlADEAAAAQZgAAAAEAACAAAABB3HTFZmZkqLfcEKTiiWtzeIHKf/RzRBn0EfsELEuB1wAAAAAOgAAAAAIAACAAAACWbrmlhZ6TMMrnW1kv7pupeXeCRyN3tw9nMVhHWm5jpyAAAACrH1U7hu05U16Q4SlcqnOYjflZmDv6PEmYiFyAJCyGcUAAAAARPcQo9U7/A6LEa4eAPWxt5o+wx5uS2DAUIpoLI9kH13QVKRXulO8A+wke1qaylI3EJDlTTJ/G5J/s4aRTlOkt</Value>
           </ConfigurationSetting>
         </UserPasswords>
-        <TargetServer>SERVER</TargetServer>
-        <TargetDatabase>ProyectoDMD</TargetDatabase>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>CubosOlap</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

@@ -1,0 +1,112 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0ed34b51-36aa-4744-a8c9-b0ce0826c2b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Proyecto Catedrafase1</ID>
+  <Name>Proyecto Catedrafase1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Proyecto Catedrafase1</DataSourceID>
+  <Schema>
+    <xs:schema id="Proyecto_x0020_Catedrafase1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Proyecto_x0020_Catedrafase1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e9725fdb-3d42-4f31-abd6-1c637abbd65a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_OLE_x0020_DB_x0020_Destination" msprop:DbTableName="OLE DB Destination" msprop:FriendlyName="OLE DB Destination" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="e0842684-e07b-4210-bf09-c594b8d5fc53">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Segmento" msprop:FriendlyName="Segmento" msprop:DbColumnName="Segmento" msprop:design-time-name="6bcfdc40-78d2-4c34-8467-8e0c2914bd69" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="País" msprop:FriendlyName="País" msprop:DbColumnName="País" msprop:design-time-name="041e0e0c-878d-4e82-b1e9-d762f026f725" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Producto" msprop:FriendlyName="Producto" msprop:DbColumnName="Producto" msprop:design-time-name="2a0313e1-cb5b-47ef-93a0-49b5d371582b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Discount_x0020_Band" msprop:FriendlyName="Discount Band" msprop:DbColumnName="Discount Band" msprop:design-time-name="7566e571-4b1d-4b6f-ae8c-1b7ebef4bdd9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Unidades_x0020_vendidas" msprop:FriendlyName="Unidades vendidas" msprop:DbColumnName="Unidades vendidas" msprop:design-time-name="7cf604c7-66bb-47b1-a49f-6792cc072f8f" type="xs:double" minOccurs="0" />
+                  <xs:element name="Precio_x0020_manufactura" msprop:FriendlyName="Precio manufactura" msprop:DbColumnName="Precio manufactura" msprop:design-time-name="5021f93c-47a0-406f-9480-5413db082770" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Precio_x0020_de_x0020_venta" msprop:FriendlyName="Precio de venta" msprop:DbColumnName="Precio de venta" msprop:design-time-name="9bd3c22d-e962-4a22-b1a0-5b8889df16ad" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Ventas_x0020_brutas" msprop:FriendlyName="Ventas brutas" msprop:DbColumnName="Ventas brutas" msprop:design-time-name="36599e30-0f0a-4d76-bc77-f7358fa50e3f" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Descuento" msprop:FriendlyName="Descuento" msprop:DbColumnName="Descuento" msprop:design-time-name="b1fff222-3fd3-4b6b-b732-bce92ecafd53" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Ventas" msprop:FriendlyName="Ventas" msprop:DbColumnName="Ventas" msprop:design-time-name="5df06402-b576-4112-9b5a-3dfcdc6de3d3" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Costos" msprop:FriendlyName="Costos" msprop:DbColumnName="Costos" msprop:design-time-name="425fa936-80d4-4177-a586-c1de336354c6" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Beneficio" msprop:FriendlyName="Beneficio" msprop:DbColumnName="Beneficio" msprop:design-time-name="3b57e769-5805-4098-bd4c-95ee4d245696" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Fecha" msprop:FriendlyName="Fecha" msprop:DbColumnName="Fecha" msprop:design-time-name="b197a515-f390-4ef9-bd7c-cf169e2e536b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Número_x0020_de_x0020_mes" msprop:FriendlyName="Número de mes" msprop:DbColumnName="Número de mes" msprop:design-time-name="e94be13e-adbd-4f07-99a1-803d679f9944" type="xs:double" minOccurs="0" />
+                  <xs:element name="Nombre_x0020_de_x0020_mes" msprop:FriendlyName="Nombre de mes" msprop:DbColumnName="Nombre de mes" msprop:design-time-name="68dcb8fb-8eb5-4c79-872a-57769e473868" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Año" msprop:FriendlyName="Año" msprop:DbColumnName="Año" msprop:design-time-name="3d72547e-9371-4afd-8f70-177c4981df61" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Proyecto_x0020_Catedrafase1 xmlns="" />
+  </Schema>
+</DataSourceView>

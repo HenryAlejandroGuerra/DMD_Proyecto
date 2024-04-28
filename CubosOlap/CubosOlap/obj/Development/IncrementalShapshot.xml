@@ -1,8 +1,8 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
-    <Database>ProyectoDMD</Database>
-    <Server>SERVER</Server>
-    <ConnectionString>Data Source=SERVER;Timeout=0</ConnectionString>
+    <Database>CubosOlap</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
@@ -19,43 +19,57 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Cnd1uuorIQN05my2ITJBQ+SvDWY=25/04/2024 09:39:56 p. m.25/04/2024 09:39:54 p. m.</TimeStamp>
+        <TimeStamp>LRB1n9NXe7EP3X6W6yK6inGDHMs=27/04/2024 09:52:08 p. m.27/04/2024 09:52:06 p. m.</TimeStamp>
         <ID>
-          <String>Proyecto DMD</String>
+          <String>Proyecto Catedrafase1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>ORniAlkgGJos6vNjxGgTaZkyWgw=25/04/2024 09:40:06 p. m.25/04/2024 09:40:05 p. m.</TimeStamp>
+        <TimeStamp>Cu0VbdPHOl3cRXI0BwjIDFLYopY=27/04/2024 09:52:40 p. m.27/04/2024 09:52:37 p. m.</TimeStamp>
         <ID>
-          <String>Proyecto DMD</String>
+          <String>Proyecto Catedrafase1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>IWeSJyMM7UTE9+62V7TFvrAgoOc=26/04/2024 07:51:26 p. m.26/04/2024 06:48:43 p. m.</TimeStamp>
+        <TimeStamp>9zqQkITe8l138ztAbWyH2Zc+dvk=27/04/2024 10:02:58 p. m.27/04/2024 09:53:43 p. m.</TimeStamp>
         <ID>
-          <String>Sheet1</String>
+          <String>OLE DB Destination</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fSlNo0L/lEghVoztKqV9FtbyY6I=27/04/2024 10:45:22 p. m.27/04/2024 10:43:49 p. m.</TimeStamp>
+        <ID>
+          <String>OLE DB Destination 1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>o0nQXKwfwVnFcCXhDYoSiUAo42E=26/04/2024 07:54:50 p. m.26/04/2024 06:48:42 p. m.eK/cDGM2YxD7Vkj2irLBxS5DhmU=26/04/2024 06:48:44 p. m.26/04/2024 06:48:42 p. m.</TimeStamp>
+        <TimeStamp>JV7dUg2x2W+060012GiQ+5Jj8EU=27/04/2024 10:37:58 p. m.27/04/2024 09:53:43 p. m.RbZFeop1ciJZ7VTWe2RN+7oViFk=27/04/2024 09:53:44 p. m.27/04/2024 09:53:43 p. m.</TimeStamp>
         <ID>
-          <String>Proyecto DMD</String>
+          <String>Proyecto Catedrafase1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uC3rlyVz3jQkgjH/sgC0JuqX4ns=27/04/2024 10:52:10 p. m.27/04/2024 10:43:49 p. m.3TkOId1SfxkS72BF62TGpnJISNU=27/04/2024 10:43:50 p. m.27/04/2024 10:43:49 p. m.</TimeStamp>
+        <ID>
+          <String>Finanzas</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>HYgyL6pCJ4G8aCmhXpbICLHupMI=25/04/2024 06:35:28 p. m.25/04/2024 06:43:41 p. m.</TimeStamp>
+      <TimeStamp>WoBDVQZkbFjA/btxlPZycdbrDWo=27/04/2024 09:50:34 p. m.27/04/2024 09:50:33 p. m.</TimeStamp>
       <ID>
-        <String>ProyectoDMD</String>
+        <String>CubosOlap</String>
       </ID>
     </DatabaseSnapshot>
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-04-27T01:55:14.02Z</LastDeployed>
+  <LastDeployed>2024-04-28T04:52:23.033333Z</LastDeployed>
 </DeploymentSnapshot>

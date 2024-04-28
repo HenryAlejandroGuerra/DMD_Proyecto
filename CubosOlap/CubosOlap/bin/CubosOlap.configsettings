@@ -2,8 +2,8 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>Proyecto DMD</ID>
-        <ConnectionString>Provider=SQLOLEDB.1;Data Source=SERVER;Persist Security Info=True;Password=;User ID=;Initial Catalog=ProyectoDMD</ConnectionString>
+        <ID>Proyecto Catedrafase1</ID>
+        <ConnectionString>Provider=SQLOLEDB.1;Data Source=SERVER;Persist Security Info=True;Password=;User ID=;Initial Catalog=ProyectoCatedrafase1</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,18 +12,34 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Sheet1</ID>
+        <ID>OLE DB Destination</ID>
+      </Dimension>
+      <Dimension>
+        <ID>OLE DB Destination 1</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Proyecto DMD</ID>
+        <ID>Proyecto Catedrafase1</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Sheet1</ID>
+            <ID>OLE DB Destination</ID>
             <Partitions>
               <Partition>
-                <ID>Sheet1</ID>
+                <ID>OLE DB Destination</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Finanzas</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>OLE DB Destination</ID>
+            <Partitions>
+              <Partition>
+                <ID>OLE DB Destination</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
