@@ -8,11 +8,12 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Reportes Proyecto de Catedra</TargetReportFolder>
+    <TargetReportFolder>Proyecto de informe</TargetReportFolder>
     <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
     <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
     <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
-    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+    <TargetServerURL>http://localhost/ReportServer</TargetServerURL>
+    <StartItem>Reporte Ventas Beneficio por Unidad.rdl</StartItem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -22,7 +23,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Reportes Proyecto de Catedra</TargetReportFolder>
+    <TargetReportFolder>Proyecto de informe</TargetReportFolder>
     <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
     <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
     <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
@@ -36,7 +37,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Reportes Proyecto de Catedra</TargetReportFolder>
+    <TargetReportFolder>Proyecto de informe</TargetReportFolder>
     <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
     <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
     <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
@@ -48,5 +49,10 @@
     <DataSets>@(DataSet)</DataSets>
     <Reports>@(Report)</Reports>
   </PropertyGroup>
+  <ItemGroup>
+    <Report Include="Reporte de Finanzas Ganancia por Unidad.rdl" />
+    <Report Include="Reporte de Finanzas Ventas Netas.rdl" />
+    <Report Include="Reporte de Ventas.rdl" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

@@ -19,42 +19,42 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>LRB1n9NXe7EP3X6W6yK6inGDHMs=27/04/2024 09:52:08 p. m.27/04/2024 09:52:06 p. m.</TimeStamp>
+        <TimeStamp>LRB1n9NXe7EP3X6W6yK6inGDHMs=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>Proyecto Catedrafase1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Cu0VbdPHOl3cRXI0BwjIDFLYopY=27/04/2024 09:52:40 p. m.27/04/2024 09:52:37 p. m.</TimeStamp>
+        <TimeStamp>Cu0VbdPHOl3cRXI0BwjIDFLYopY=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>Proyecto Catedrafase1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9zqQkITe8l138ztAbWyH2Zc+dvk=27/04/2024 10:02:58 p. m.27/04/2024 09:53:43 p. m.</TimeStamp>
+        <TimeStamp>9zqQkITe8l138ztAbWyH2Zc+dvk=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>OLE DB Destination</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fSlNo0L/lEghVoztKqV9FtbyY6I=27/04/2024 10:45:22 p. m.27/04/2024 10:43:49 p. m.</TimeStamp>
+        <TimeStamp>fSlNo0L/lEghVoztKqV9FtbyY6I=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>OLE DB Destination 1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>JV7dUg2x2W+060012GiQ+5Jj8EU=27/04/2024 10:37:58 p. m.27/04/2024 09:53:43 p. m.RbZFeop1ciJZ7VTWe2RN+7oViFk=27/04/2024 09:53:44 p. m.27/04/2024 09:53:43 p. m.</TimeStamp>
+        <TimeStamp>ttXHJklELvqkf8hG4RpyyO+LwbM=28/04/2024 06:01:24 p. m.28/04/2024 05:58:55 p. m.RbZFeop1ciJZ7VTWe2RN+7oViFk=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>Proyecto Catedrafase1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uC3rlyVz3jQkgjH/sgC0JuqX4ns=27/04/2024 10:52:10 p. m.27/04/2024 10:43:49 p. m.3TkOId1SfxkS72BF62TGpnJISNU=27/04/2024 10:43:50 p. m.27/04/2024 10:43:49 p. m.</TimeStamp>
+        <TimeStamp>0cYKYuQ6h1h797ETsVGwY/VKxXQ=28/04/2024 06:02:04 p. m.28/04/2024 05:58:55 p. m.3TkOId1SfxkS72BF62TGpnJISNU=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
         <ID>
           <String>Finanzas</String>
         </ID>
@@ -62,7 +62,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>WoBDVQZkbFjA/btxlPZycdbrDWo=27/04/2024 09:50:34 p. m.27/04/2024 09:50:33 p. m.</TimeStamp>
+      <TimeStamp>WoBDVQZkbFjA/btxlPZycdbrDWo=28/04/2024 05:58:56 p. m.28/04/2024 05:58:55 p. m.</TimeStamp>
       <ID>
         <String>CubosOlap</String>
       </ID>
@@ -71,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-04-28T04:52:23.033333Z</LastDeployed>
+  <LastDeployed>2024-04-29T00:04:03.573333Z</LastDeployed>
 </DeploymentSnapshot>

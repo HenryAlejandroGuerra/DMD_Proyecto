@@ -21,7 +21,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4730" scrolltop="-9141" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13150" y="23283" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4730" scrolltop="-9141" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13150" y="23283" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -32,7 +32,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OLE DB Destination" left="-3023" top="-6588" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OLE DB Destination" left="-3023" top="-6588" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000430e000088130000" />
                 </control>
@@ -588,8 +588,8 @@ VISIBLE = 1; </Text>
           <Name>Margen de Contribucion</Name>
           <Value>[Measures].[Margen de Contribucion]</Value>
           <Goal>[Measures].[Margen de Contribucion]</Goal>
-          <Status>[Measures].[Margen de Contribucion]&lt;24133.86</Status>
-          <Trend>[Measures].[Margen de Contribucion]&gt;24133.86</Trend>
+          <Status>[Measures].[Margen de Contribucion]&lt;2815617.043</Status>
+          <Trend>[Measures].[Margen de Contribucion]&gt;2815617.043</Trend>
           <TrendGraphic>Standard Arrow</TrendGraphic>
           <StatusGraphic>Gauge - Ascending</StatusGraphic>
         </Kpi>
@@ -598,8 +598,8 @@ VISIBLE = 1; </Text>
     <Cube>
       <ID>Finanzas</ID>
       <Name>Finanzas</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -663,7 +663,7 @@ VISIBLE = 1; </Text>
           <Value>100</Value>
         </Annotation>
       </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Dimensions>
         <Dimension>
@@ -703,9 +703,9 @@ VISIBLE = 1; </Text>
         <MeasureGroup>
           <ID>OLE DB Destination</ID>
           <Name>OLE DB Destination</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Measures>
             <Measure>
@@ -831,9 +831,9 @@ VISIBLE = 1; </Text>
             <Partition>
               <ID>OLE DB Destination</ID>
               <Name>OLE DB Destination</Name>
-              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
               <State>Unprocessed</State>
               <Source xsi:type="DsvTableBinding">
                 <DataSourceViewID>Proyecto Catedrafase1</DataSourceViewID>
@@ -853,8 +853,8 @@ VISIBLE = 1; </Text>
         <MdxScript>
           <ID>MdxScript</ID>
           <Name>MdxScript</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
           <Commands>
             <Command>
               <Text>/*
@@ -879,8 +879,8 @@ VISIBLE = 1  ; </Text>
           <Name>Ganancia por Unidad</Name>
           <Value>[Measures].[Ganancia por Unidad]</Value>
           <Goal>[Measures].[Ganancia por Unidad]</Goal>
-          <Status>[Measures].[Ganancia por Unidad]&lt;21.95</Status>
-          <Trend>[Measures].[Ganancia por Unidad]&gt;21.95</Trend>
+          <Status>[Measures].[Ganancia por Unidad]&lt;512.2</Status>
+          <Trend>[Measures].[Ganancia por Unidad]&gt;512.2</Trend>
           <TrendGraphic>Standard Arrow</TrendGraphic>
           <StatusGraphic>Gauge - Ascending</StatusGraphic>
         </Kpi>
@@ -889,8 +889,8 @@ VISIBLE = 1  ; </Text>
           <Name>Ventas Netas</Name>
           <Value>[Measures].[Ventas Netas]</Value>
           <Goal>[Measures].[Ventas Netas]</Goal>
-          <Status>[Measures].[Ventas Brutas]&lt;169609.07</Status>
-          <Trend>[Measures].[Ventas Netas]&gt;169609.07</Trend>
+          <Status>[Measures].[Ventas Netas]&lt;19877725.04</Status>
+          <Trend>[Measures].[Ventas Netas]&gt;19877725.04</Trend>
           <TrendGraphic>Standard Arrow</TrendGraphic>
           <StatusGraphic>Gauge - Ascending</StatusGraphic>
         </Kpi>

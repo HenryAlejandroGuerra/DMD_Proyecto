@@ -1,8 +1,8 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bb675d93-c8c4-48a9-8dda-d363fe077de9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="154968b7-2c3f-46e6-b8b5-ab84ea5e4be1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Finanzas</ID>
   <Name>Finanzas</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -66,90 +66,90 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="e8779d65-8187-432a-9adb-0e8b38563c40">
+    <Dimension dwd:design-time-name="18287291-f796-45fd-a92e-5d811fa103d1">
       <ID>Ventas</ID>
       <Name>Ventas</Name>
       <DimensionID>OLE DB Destination</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="afa3daf8-4762-4613-88d7-81a46e59fc87">
+        <Attribute dwd:design-time-name="bb20bde3-2a24-4763-a459-e09d13c63178">
           <AttributeID>Segmento</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0bdb46fb-7636-40d5-a2a1-9ccd7d6b0573">
+        <Attribute dwd:design-time-name="50e21b18-b42e-4c9f-bd8e-3d721de1fd0f">
           <AttributeID>País</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1f18dbd8-dd62-4d92-813b-f66e1ec799f4">
+        <Attribute dwd:design-time-name="9f3dba4d-9145-4050-91a2-0af5ad7e36c0">
           <AttributeID>Producto</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="198d8b52-340d-40e4-a339-846c0f114d40">
+    <Dimension dwd:design-time-name="7ab28a95-635c-4c86-8891-83464a7f8693">
       <ID>OLE DB Destination</ID>
       <Name>OLE DB Destination</Name>
       <DimensionID>OLE DB Destination 1</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e2a19411-a377-4eaa-adf2-fe46c230d305">
+        <Attribute dwd:design-time-name="21be48f9-1b6b-4bd4-a6f5-e30f7405898e">
           <AttributeID>Segmento</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7fadf4bb-9fe5-41ce-8605-3ed2fa1919f4">
+        <Attribute dwd:design-time-name="5c9be156-3c7c-471d-b0e0-b79780815e81">
           <AttributeID>País</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c78793f7-83fb-44e6-9595-89df543ed3e7">
+        <Attribute dwd:design-time-name="3e310f70-0f2a-42f9-bf38-b130aeca754d">
           <AttributeID>Producto</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="7e6a102a-b048-477c-95d2-34885b94c1e3">
+    <MeasureGroup dwd:design-time-name="d9d90f0e-d113-478d-affa-a67c07d885e7">
       <ID>OLE DB Destination</ID>
       <Name>OLE DB Destination</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="850235f9-6e7e-4ef4-b25a-64652bb7fddc">
+        <Measure dwd:design-time-name="2cfcc6a2-845f-4f94-b028-b62f0b30551d">
           <ID>Precio Manufactura</ID>
           <Name>Precio Manufactura</Name>
-          <Source dwd:design-time-name="c35fca90-3222-4ed6-9bad-d97b750e0432">
+          <Source dwd:design-time-name="72f866f0-89fe-4d51-a382-25bf6aabcea2">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="53e9d2f5-4704-4784-89cc-e9ce8bf56dfe">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2eac218a-bc76-46d5-be9f-e625a777128b">
               <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
               <ColumnID>Precio_x0020_manufactura</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="91e1dbeb-df2d-4993-b97d-fd8bb14d630f">
+        <Measure dwd:design-time-name="fa1d5d6f-93f4-4b05-9e31-4ebb6958e655">
           <ID>Precio De Venta</ID>
           <Name>Precio De Venta</Name>
-          <Source dwd:design-time-name="4a48091a-de9c-40b1-ae3c-dca01fc11e1f">
+          <Source dwd:design-time-name="b296e647-adea-4701-8b62-a31d129ee987">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="dfb4be02-d83e-476a-8281-d8014add5162">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5df67384-1fcc-4917-8e5b-1c0cc9ef0ed1">
               <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
               <ColumnID>Precio_x0020_de_x0020_venta</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="a7a300ad-709f-4e7b-a715-987b08fdd4f1">
+        <Measure dwd:design-time-name="223e503c-f7e0-4b57-87d6-26cf45e4973a">
           <ID>Ventas Brutas</ID>
           <Name>Ventas Brutas</Name>
-          <Source dwd:design-time-name="a44777fe-aaf0-428d-825e-c91d51d9c312">
+          <Source dwd:design-time-name="33da9d27-fa65-4f97-97f1-44259b77543c">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="516bef37-d177-489b-8c0f-79894c438725">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c48d6e7a-578b-4fc7-a218-cc6681190c5e">
               <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
               <ColumnID>Ventas_x0020_brutas</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c9f88138-f524-484d-95b9-afa95849b2e9">
+        <Measure dwd:design-time-name="5dadd19c-4318-44af-bce9-f0bf89d894da">
           <ID>Descuento</ID>
           <Name>Descuento</Name>
-          <Source dwd:design-time-name="cdb9a7c8-569d-41a0-9ec9-3860c2ae7ba0">
+          <Source dwd:design-time-name="bcd2ba42-bb59-4152-83ef-44fe927b62f1">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b0836108-e2a3-4652-932a-bce09e6a1bd3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14951048-3a10-4e49-a01f-1cba2ee2b198">
               <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
               <ColumnID>Descuento</ColumnID>
             </Source>
@@ -159,32 +159,32 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="859d5543-cf5a-477f-a340-c1ac07c7fef7">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0e7304db-153d-4a86-9877-c6c2f9e2b12a">
           <CubeDimensionID>Ventas</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6338d450-15f6-40f7-b545-585128a64da8">
+            <Attribute dwd:design-time-name="7de82f42-38a5-4fca-a27a-5b0191584e93">
               <AttributeID>Segmento</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="06d4879f-cb6f-4c71-ad1e-a1933840029e">
+                <KeyColumn dwd:design-time-name="e01553e8-d1d1-4406-8f1d-a168ef1f59ef">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d6b56eed-19a6-47d4-a4e8-c9f7f5370709">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1970743c-6edf-4803-a2f5-e1bc6041b83f">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>Segmento</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="10fa35a0-8c1d-404c-9fe8-dd64000cff92">
+                <KeyColumn dwd:design-time-name="6e521fa9-f3d3-43d3-b072-1461b31d2baf">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cffe2db7-bd0c-48d1-aef3-77d4d66a4435">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1266952-da3d-4259-a5e4-ce2663731250">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>País</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="67486d04-a022-419a-a960-4bb898030cbe">
+                <KeyColumn dwd:design-time-name="554243cc-70b3-4f11-8921-887b4a7454db">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86ccf014-e2a8-46e9-a970-742d10f63a75">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf6e61e0-da9f-416b-96ad-6a1121a20c9f">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>Producto</ColumnID>
                   </Source>
@@ -194,32 +194,32 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="36b20d02-e6b6-436c-8f94-b6c453430079">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8ebf3f29-aa2a-4d41-98c6-0944e556a09e">
           <CubeDimensionID>OLE DB Destination</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="aee456ab-39ec-455e-8fa2-ca689b28070c">
+            <Attribute dwd:design-time-name="4a893d40-eaa4-4708-a407-e598b3230a20">
               <AttributeID>Segmento</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f8e5d94d-1a11-4546-8529-a2f160a1550e">
+                <KeyColumn dwd:design-time-name="963ef9fd-3cf4-4c38-a851-c12538ef49ab">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="069fa443-6466-48ab-8177-907ff5311e2a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b6936fe4-23b9-42f2-8926-e01b7b4a27e2">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>Segmento</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="29b998e7-0c47-4ba7-ae91-b0d2c2cfc86d">
+                <KeyColumn dwd:design-time-name="93241290-8ea7-44ac-873e-0f000e4a6f19">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c11126f-e5bf-4093-bc7a-f90eb8498194">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff267da9-d669-404e-ba5f-077601798e04">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>País</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="e946484e-63e9-4912-9417-680862360acd">
+                <KeyColumn dwd:design-time-name="816e4c4c-1038-4471-9837-8f4ff49e87af">
                   <DataType>WChar</DataType>
                   <DataSize>255</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ba125e29-e7b6-4417-bfc7-711a105dc2b9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c07946a-1d55-4e41-9ae6-6772af930ae8">
                     <TableID>dbo_OLE_x0020_DB_x0020_Destination</TableID>
                     <ColumnID>Producto</ColumnID>
                   </Source>
@@ -233,15 +233,15 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="30001d79-9a5e-4cc0-b13b-c79aa85de071">
+  <Source dwd:design-time-name="2b369b1f-5e50-4935-952d-b07b2f79df3e">
     <DataSourceViewID>Proyecto Catedrafase1</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="adcde201-c11c-4b00-b2fe-4900d619c7c6">
+    <MdxScript dwd:design-time-name="ed65c435-8c93-4057-9dac-87e70bae3641">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
       <Commands>
         <Command>
           <Text>/*
@@ -261,23 +261,23 @@ VISIBLE = 1  ; </Text>
     </MdxScript>
   </MdxScripts>
   <Kpis>
-    <Kpi dwd:design-time-name="65964a41-7279-4f53-b709-e684b496a200">
+    <Kpi dwd:design-time-name="74850393-bda1-4134-a5a1-0cad7bf724f1">
       <ID>KPI</ID>
       <Name>Ganancia por Unidad</Name>
       <Value>[Measures].[Ganancia por Unidad]</Value>
       <Goal>[Measures].[Ganancia por Unidad]</Goal>
-      <Status>[Measures].[Ganancia por Unidad]&lt;21.95</Status>
-      <Trend>[Measures].[Ganancia por Unidad]&gt;21.95</Trend>
+      <Status>[Measures].[Ganancia por Unidad]&lt;512.2</Status>
+      <Trend>[Measures].[Ganancia por Unidad]&gt;512.2</Trend>
       <TrendGraphic>Standard Arrow</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
-    <Kpi dwd:design-time-name="ed98eb61-b498-4d2d-a8bb-f6c142f1c53a">
+    <Kpi dwd:design-time-name="0e7c5078-d2db-4f82-805f-73f8bc612b75">
       <ID>KPI 1</ID>
       <Name>Ventas Netas</Name>
       <Value>[Measures].[Ventas Netas]</Value>
       <Goal>[Measures].[Ventas Netas]</Goal>
-      <Status>[Measures].[Ventas Brutas]&lt;169609.07</Status>
-      <Trend>[Measures].[Ventas Netas]&gt;169609.07</Trend>
+      <Status>[Measures].[Ventas Netas]&lt;19877725.04</Status>
+      <Trend>[Measures].[Ventas Netas]&gt;19877725.04</Trend>
       <TrendGraphic>Standard Arrow</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
